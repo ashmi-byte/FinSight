@@ -1,4 +1,4 @@
-# Financial Agentic RAG
+# FinSight: Agentic RAG System for Financial Document Analysis
 
 An agentic Retrieval-Augmented Generation system for querying financial reports, built with LangGraph. The agent classifies and decomposes user questions, routes to the appropriate retrieval strategy (vector or SQL), evaluates result relevance with a CRAG-style loop, and streams reasoning steps to a React frontend via Server-Sent Events.
 
@@ -30,7 +30,7 @@ An agentic Retrieval-Augmented Generation system for querying financial reports,
 ## Architecture
 
 ```
-RAG/
+FinSight/
 ├── agent/
 │   ├── graph.py          # LangGraph state machine and conditional edges
 │   ├── nodes.py          # classify, decompose, route, retrieve, evaluate, rewrite, generate
@@ -101,3 +101,9 @@ Open `http://localhost:5173`.
 | GET | `/files` | List ingested PDFs grouped by company |
 | POST | `/upload` | Upload a PDF; triggers ingestion in background |
 | GET | `/pdf/{filename}` | Serve raw PDF bytes |
+
+---
+
+
+    style DC stroke-dasharray: 5 5
+```
