@@ -1,0 +1,46 @@
+.right-sidebar {
+  width: 0;
+  flex-shrink: 0;
+  border-left: 1px solid transparent;
+  transition: width 0.2s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+}
+
+.right-sidebar.open {
+  width: 380px;
+  border-left-color: #e0e0e0;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  border-bottom: 1px solid #e0e0e0;
+  min-height: 42px;
+  gap: 8px;
+}
+
+.sidebar-title {
+  flex: 1;
+  font-size: 11px;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #aaa;
+  font-size: 13px;
+  flex-shrink: 0;
+  padding: 2px 4px;
+}
+.close-btn:hover { color: #555; }
+
+.pdf-viewer { flex: 1; border: none; width: 100%; }
