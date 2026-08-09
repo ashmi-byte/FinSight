@@ -1,0 +1,32 @@
+# Core
+langchain>=0.2.0
+langgraph>=0.1.0
+langchain-openai>=0.1.0
+
+# PDF parsing (Phase 2)
+docling>=2.0.0
+
+# Financial data (replaces PDF table extraction)
+yfinance>=0.2.40
+
+# Vector store
+qdrant-client>=1.9.0
+
+# Embeddings / LLM
+openai>=1.30.0
+
+# API
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.9
+
+# Database
+sqlalchemy>=2.0.0
+
+# Evaluation
+ragas>=0.1.0
+datasets>=2.19.0
+
+# Utilities
+pandas>=2.2.0
