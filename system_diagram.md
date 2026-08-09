@@ -1,4 +1,4 @@
-# System Architecture
+# RAG System Architecture
 
 ```mermaid
 flowchart LR
